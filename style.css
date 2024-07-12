@@ -1,0 +1,644 @@
+body{
+    
+}
+.for-whole-nav{
+    padding: 10px 10px 10px 10px ;
+}
+.for-brand-logo img{
+    width: 211px;
+    height: 33px;
+    cursor: pointer;
+}
+.for-navbar-edit{
+    margin-left: 80px;
+}
+.for-navbar-edit li{
+    font:15px proxima semibold;
+}
+.for-download-app{
+    margin-left: 50px;
+    background-color: red;
+    color:white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-section{
+    background-color:#1a5ca3;
+    position:relative;
+}
+.for-banner-img img{
+    max-width:auto;
+    height: 433px;
+    position: relative;
+    left:350px;
+    z-index: 5;
+}
+.dominos-order-text a{
+    color:white;
+    font-size: 42px;
+    font-weight: 900;
+    z-index: 4;
+}
+.for-yummy-text a{
+    color:rgb(104, 144, 236);
+    font-size: 24px;
+    font-weight: 400;
+}
+.for-inner-btn button{
+    background-color: rgb(3, 173, 3);
+    color:white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-color: rgb(44, 159, 44);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 430px;
+}
+.banner-inner-content{
+    position: absolute;
+    left:50px;
+    top:200px;
+}
+.banner-content1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.banner-img2 {
+    z-index: 6;
+    position:relative;
+    top:10px;  
+}
+.coupens-offer-text p{
+    font: 31px proxima Nova;
+    color:#708AA5;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.scroller-bar{
+    margin-top: 50px;
+}
+.curosel-img-edit1 img{
+    border-radius: 5px;
+}
+.curosel-img-edit2 img{
+    border-radius: 5px;
+}
+.for-explorer p{
+    font: 31px proxima Nova;
+    color:#708AA5;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#for-black-img-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+}
+.for-expolrer-red-button a{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top:70px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.for-explorer-imgs img{
+    height:55px;
+    width:40px;
+    margin: 10px 0px 5px 40%;
+}
+.for-explorer-imgs p{
+    text-align: center;
+}
+.for-mobile-part{
+    margin-bottom: 100px;
+    background-color: #c7e2fe;
+}
+.for-mobile-part-text{
+    margin-top: 100px;
+}
+.for-mobile-part-text p{
+    color: #3f6f8d;
+    font-size: 32px;
+    font-weight: 900;
+}
+#for-exclusive-offer{
+    font-size: 24px;
+    font-weight: 700;
+    color: #7095ab;
+}
+.buttons-in-mobilepart img{
+    display: inline-block;
+    flex-direction: row;
+}
+.ourmenu-navbars-two{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    font-size: 12px;
+    gap:5px;
+    padding: 10px;
+}
+#for-delivering-happiness-text{
+    color: #095C91;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.ourmenu-navbars-two li{
+    border-style: none dotted none none;
+    border: 1px grey;
+}
+.ourmenu-navbars-two a{
+    color: aliceblue;
+}
+.ourmenu-navbars-two-bg-color{
+    background-color: rgb(45, 117, 180);
+}
+.ourmenu-header p{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+    color: red;
+    font:42px proxima semibold;
+}
+.for-chat-img{
+    position: fixed;
+    height: 50px;
+    width:50px;
+    right:20px;
+    z-index: 3;
+}
+.footer-buttons {
+    margin-top: 30px;
+}
+.footer-buttons button{
+    background-color: rgb(247, 236, 220);
+    margin-top: 2px;
+    color: black;
+    border-radius: 5px;
+}
+.for-footer-color{
+    background-color: #222E3A;
+    margin-top: 100px;
+}
+.footer-inner-content{
+    margin-top: 50px;
+}
+.for-footer-header h4{
+    color:hsl(216, 71%, 82%);
+    font: 20px ProximaNova;
+}
+.for-footer-menu{
+    list-style: none;
+}
+.for-footer-menu li{
+    color:white;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.for-icons i{
+    padding-top: 20px;
+}
+.for-copy-rights{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #1A2735;
+    color: #f7fafe;
+}
+.icon-next-below-img img{
+    margin-top: 30px;
+}
+
+
+/*   Our MENU  */
+
+
+.for-ourmenu-navbar-bg-color{
+    background-color: #255f84;
+}
+.for-ourmenu-brand-logo img{
+    height: 40px;
+    width: 120px;
+    margin: 0px 40px 0px 50px;
+}
+.for-ourmenu-navbar-edit a{
+    font: 16px Oswald-Regular;
+    color:rgb(223, 223, 223);
+    font-weight: 500;
+    border-style: none dotted none none;
+    border-right-width: 1px;
+    padding: 0px 5px ;
+    
+}
+.for-ourmenu-navbar-edit li{
+    display: flex;
+    list-style: none;
+    color: white;
+ }
+.for-ourmenu-navbar-edit a:hover{
+    text-decoration: none;
+}
+#for-ourmenu-border-style{
+    border-style: none dotted solid none;
+    border-bottom: 5px;
+}
+.for-ourmenu-download-app{
+    background-color: red;
+    color:white;
+    padding: 1px 5px ;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+.for-ourmenu-download-app:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    border-color: red;
+}
+.for-second-navbar-in-ourmenu{
+    background-color: #0B639C;
+    color: #ffff;
+    margin-top: -20px;
+    padding: 10px 0px;
+}
+.second-ourmenu-navbars-list{
+    display: block;
+}
+.second-ourmenu-navbars-list li{
+    display: inline-block; 
+    font: 12px Oswald-Regular;
+
+}
+.second-ourmenu-navbars-list a{
+    text-decoration: none;
+    color: #ffff;   
+    border-style: none dotted none none;
+    border-width: 1px;
+    padding: 2px 10px 0px;
+    height: 30px;
+    width:auto;
+}
+.for-ourmenu-heading h1{
+    font-size:35px;
+    font-family:Oswald-Regular;
+    color: #E61A39;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.ourmenu-menu-down-layer{
+   background-image: url("C:/Users/ADMIN/Desktop/dominos/images/red.webp"); 
+}
+.ourmenu-menu-upper-layer p{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.ourmenu-pizza-images{
+    margin-top: 20px;
+}
+.ourmenu-menu-upper-layer{
+    z-index: 2;
+}
+.ourmenu-menu-upper-layer button{
+    margin-left: 130px;
+    background-color:white;
+    color:red;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ourmenu-menu-upper-layer button:hover{
+    color: white;
+    background-color: red;
+    outline-color: white;
+}
+.for-ourmenu-veg-content {
+    text-align: center;
+}
+#for-ourmenu-veg{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0px 20px 0px;
+}
+.menu-images{
+    margin-top: 30px;
+}
+.ourmenu-faq{
+    margin-top: 1050px;
+}
+.ourmenu-faq-accortion h1{
+    color: #3f6f8d;
+    margin-bottom: 20px;
+}
+
+/*     Dominos store   */
+#for-dominos-store-download-app{
+    margin-right: 100px;
+}
+.for-dominos-store-order-btn-app{
+    margin-left: 50px;
+    background-color: red;
+    color:white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+.for-dominos-store-navbar-edit a{
+font: 16px Oswald-Regular;
+color:white;
+font-weight: 900;
+border-style: none dotted none none;
+border-right-width: 1px;
+padding: 0px 5px ;
+}
+.for-dominos-store-navbar-edit li{
+    list-style: none;
+    padding: 20px 5px 2px 5px;
+}.Dominos-pizza-store h1{
+    color: #3f6f8d;
+    font-size: 22px;
+    font-weight: 700;
+}
+.dominos-store-box{
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: #0B639C;
+    border-radius: 5px;
+}
+.dominos-store-box p{
+    margin: 0px 0px 0px 20px;
+    padding-top: 10px;
+}
+.dominos-store-search-bars button{
+    color: white;
+    background-color: #264361;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px;
+}
+.dominos-store-search-bars li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.for-dominos-store-top-two-imgs{
+    background-color: #c8d4db;
+    height: max-content;
+    width: 100%;
+    padding: 10px;
+}
+.dominos_store_img img{
+    height: 10%;
+    width: 100%
+}
+.dropdown-para-header {
+    font-size: 12px; 
+    font-weight: bold;
+}
+.dropdown-para-header p{
+    font-size: 12px; 
+    font-weight: bold;
+}
+.dominos-store-drop-down-content{
+    margin-top: 15px;
+}
+.dominos-store-box2{
+    background-color: #70757b;
+    height: 100%;
+    
+}
+/*      Gift cart */
+
+.for-second-navbar-in-giftcart{
+    background-color: #0B639C;
+    color: #ffff;
+    margin-top: -20px;
+    padding: 10px 0px;
+}
+.for-second-navbar-in-giftcart ul{
+    text-align: center;
+}
+.for-giftcart-image-edit img{
+    margin-top: 20px;
+}
+.for-giftcart-topic-header p{
+    color: #3f6f8d;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 35px;
+    text-align: center;
+}
+.for-giftcart-two-boxeses{
+    margin-top: 50px;
+}
+#giftcard-e-gift-voucher{
+    text-align: center;
+    padding: 10px;
+}
+#giftcard-gift-card{
+    text-align: center ;
+    padding: 10px;
+}
+.giftcart-first-box,.giftcart-second-box{
+    border: 2px solid #70757b;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.giftcart-first-box p{
+    text-align: center;
+    padding: 15px;
+}
+.giftcart-second-box p{
+    text-align: center;
+    padding: 15px;
+}
+.giftcart-second-box img{
+    height: 130px;
+}
+.giftcart-swipper-background-image{
+    margin-top: 25px;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  .giftcart-background-img img{
+    z-index: 2;
+    margin-top: 50px;
+  }
+  .giftcart-background-img-top img{
+    z-index: 1;
+    position: relative;
+    top: -370px;
+    left: 390px;
+  }
+  .for-panelheader-red-color{
+    background-color: #BB0033;
+    color: white;
+  }
+  .for-panelbody-red-color{
+    background-color: #BB0033;
+    color: white;
+  }
+
+  /*      corporate-enquiry    */
+
+  .corporate-enquiry-page{
+    margin-top: 50px;
+  }
+  .corporate-enquiry-page-left-side img{
+    padding: 20px;
+  }
+  .corporate-enquiry-page-right-side form{
+    padding: 20px;
+   
+  }
+  .corporate-enquiry-left-content h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+  }
+  .corporate-enquiry-left-content p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5% 20%;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .corporate-enquiry-left-content-immage img{
+    padding:0% 15%;
+    margin-top: 15px;
+  }
+  .corporate-enquiry-greatest-taste-delivered-safe{
+    border-style: hidden;
+    background-color: #f6f5f3;
+  }
+  .corporate-enquiry-greatest-taste-delivered-safe h3{
+    text-align: center;
+    margin-top: 40px;
+    padding: 3% 10%;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+  }
+  .corporate-enquiry-greatest-taste-delivered-safe p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0% 10%;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .corporate-enquiry-greatest-taste-delivered-safe img{
+    padding: 5% 15%;
+  }
+  .corporate-enquiry-celebration-made-easy h3{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+  }
+  .corporate-enquiry-celebration-made-easy p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 3% 20%;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+  }
+  .corporate-enquiry-celebration-made-easy-last-img img{
+    padding: 5% 15%;
+  }
+  .corporate-enquiry-mail h3{
+    text-align: center;
+    border-style: solid hidden hidden hidden;
+    border-color: #d0d0d0;
+    padding-top: 10%;
+    margin-top: 45px;
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+  }
+  .corporate-enquiry-mail h4{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+  }
+  .corporate-enquiry-pizza{
+    margin-top: 40px;
+  }
+  .footer-partlast-one p{
+    text-align: end;
+  }
+
+
+  /* contact  */
+
+  .contact-address{
+     padding-left: 20px;
+  }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dominoss tore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3f8ddbae33.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="Navsection">
+        <nav class="navbar navbar-default for-ourmenu-navbar-bg-color">
+            <div class="container-fluid ">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="for-ourmenu-brand-logo">
+                        <img src="https://www.dominos.co.in/theme2/front/images/dominos-logo-241x53.png">
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar-nav for-dominos-store-navbar-edit">
+                        <li><a href="our_menu.html" id="for-ourmenu-border-style"> OUR MENU</a></li>
+                        <li><a href="dominos_store.html">DOMINO'S STORES</a></li>
+                        <li><a href="Gift Cart.html">GIFT CARD</a></li>
+                        <li><a href="corporate enquiry.html">CORPORATE ENQUIRY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <div class="btn">
+                                <button class="for-dominos-store-order-btn-app">Order Online Now</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="Dominos-pizza-store">
+        <div class="container-fluid">
+            <h1>Domino's Pizza Stores Near Me</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="dominos-store-box">
+                        <p>Search Pizza Stores Nearby</p>
+                        <ul class="dominos-store-search-bars">
+                            <li><button type="button" onclick="Search_Nearby()">Search Nearby</button></li>
+                            <form id="Search_bar" style="display: none;">
+                                <input type="text" placeholder="Locality/City/Store">
+                                <button style="color: white;background-color: red;">Search</button>
+                            </form>
+
+                            <li><button type="button" onclick="Advance_Search()">Advance Search</button></li>
+                            <form id="Advance_Search" style="display: none;">
+                                <input type="text" placeholder="--City--">
+                                <input type="text" placeholder="--Nation--">
+                                <input type="text" placeholder="--Country--">
+                                <button style="color: white;background-color: red;">Search</button>
+                            </form>
+                        </ul>
+                        <script>
+                            function Search_Nearby() {
+                                document.getElementById("Search_bar").style.display = "block";
+                            }
+                            function Advance_Search() {
+                                document.getElementById("Advance_Search").style.display = "block";
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="for-dominos-store-top-two-imgs">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dominos_store_img">
+                                <img src="https://www.dominos.co.in/blog/wp-content/uploads/2023/02/Pizza-Toppings-Banner.jpg"
+                                    class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dominos_store_img">
+                                <img src="https://www.dominos.co.in/blog/wp-content/uploads/2022/11/Dominos-Pizza-Delivery-IRCTC.jpg"
+                                    class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dominos-store-drop-down-content">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <p role="button" data-toggle="collapse" data-parent="#accordion"
+                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                            class="dropdown-para-header">
+                                            When you want a tummy-filling meal or when you want a warm pizza to make
+                                            your day better, what can you do but head to the nearest pizza shop?
+                                        </p>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse out" role="tabpanel"
+                                    aria-labelledby="headingOne">
+                                    <div class="panel-body dropdown-para-header">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute,
+                                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                            eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a
+                                            bird on it squid single-origin coffee nulla assumenda shoreditch et. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                           
+                        </div>
+                    </div>
+                </div>
+    </section>
